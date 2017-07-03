@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+<link rel="stylesheet" type="text/css" href="epstyle.css"> 
+<script type="application/javascript" src="main_exp.js"></script>
+ 
+</head>
+
+<body>
+
+<form id="form" onsubmit="return false;">
+pls enter number:<br>
+<input type="number" id="number"><br>
+<input type="submit" onclick = "takenumberMakeDivs();" title="Load Data" value="Step 1">
+<div id="D"></div>
+<input type="submit" onclick = "prep_ab();" title="Process Data" value="Step 2">
+<input type="submit" onclick = "drawbase(ab);" title="Draw Data" value="Step 3">
+</form> 
+<div id="e">Criteria for a RED (i.e. suspicious) connection: <br>More than <input type="number" id="CriA" value="0" onkeyup="syncredsY()"> red sentences, or<br>
+More than <input type="number" id="CriB" value="0" onkeyup="syncyelsY()"> yellow sentences.
+</div>
+<div id="e2">Criteria for a YELLOW (i.e. suspicious) connection: <br>More than <input type="number" id="CriC" value="0" min="0" max="0"> red sentences, or<br>
+More than <input type="number" id="CriD" value="0" min="0" max="0"> yellow sentences.
+</div>
+<canvas id="canvas3" width= "660px" height= "360px"></canvas>
+<canvas id="canvas2" width= "660px" height= "360px"></canvas>
+<canvas id="canvas" width= "660px" height= "360px"></canvas>
+<div id="ex"></div>
+<div id="ex2"></div>
+<div id="debug"></div>
+
+<div id="X" ></div>
+<div id="Y" ></div>
+<div id="Z" onclick = "clearC();" ></div>
+</div>
+
+</body>
+
+</html>
