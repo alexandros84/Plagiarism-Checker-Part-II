@@ -1,4 +1,6 @@
-# Plagiarism-Checker-Part-I
+# Plagiarism-Checker-Part-II
+
+Note: this project has been made from scratch with vanilla js and is not leveraging the power of *any* third party library.
 
 ##### This app is designed to relieve the cognitive load teachers face in their hard task of educating the masses (for example, through the ability of running intraclass cheating checks) while offering constructive insights about the way students appropriate new knowledge (through the ability for example to compare en mass, primary sources and assignments)
 
